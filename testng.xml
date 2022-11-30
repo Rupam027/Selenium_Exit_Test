@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FLIPKART">
+	<test name = "SELENIUM TESTS">
+		<classes>
+			<class name = "tests.ColorSchemeTest" />
+			<class name = "tests.LogoTest" /> 
+			<class name = "tests.NavigationsTest" />
+			<class name = "tests.SearchTest" /> 
+			<class name = "tests.BannerTest" /> 
+			<class name = "tests.HelpCenterTest" /> 
+			<class name = "tests.SellerHubTest" /> 
+		</classes>
+	</test>
+</suite>
+
+
+
+
+
+

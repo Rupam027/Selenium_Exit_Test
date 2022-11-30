@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.ChangeLanguageTest" class="method navigator-link" hash-for-method="changeLanguage">changeLanguage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.LogoTest" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.FontTest" class="method navigator-link" hash-for-method="testPageFont">testPageFont</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.CartTest" class="method navigator-link" hash-for-method="add_item_to_cart">add_item_to_cart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.LocaleTest" class="method navigator-link" hash-for-method="changeLocation">changeLocation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.SearchTest" class="method navigator-link" hash-for-method="search_mobile">search_mobile</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.SearchTest" class="method navigator-link" hash-for-method="search_using_keyboard">search_using_keyboard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.NavigationTest" class="method navigator-link" hash-for-method="testNavigations">testNavigations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.LoginTest" class="method navigator-link" hash-for-method="validateLoginWithBlankCredentials">validateLoginWithBlankCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.LoginTest" class="method navigator-link" hash-for-method="validateLoginWithInValidCredentials">validateLoginWithInValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.LoginTest" class="method navigator-link" hash-for-method="validateLoginWithValidCredentials">validateLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="automation_fresher_training.Assignment3.RegisterTest" class="method navigator-link" hash-for-method="validateRegisteration">validateRegisteration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.ChangeLanguageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeLanguage">
+                  </a> <!-- changeLanguage -->
+                  <span class="method-name">changeLanguage</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable: [object HTMLSpanElement] has no size and location
+  (Session info: chrome=104.0.5112.102)
+Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
+System info: host: &apos;IN-FRB1L13&apos;, ip: &apos;192.168.29.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed43fde841ac177ad76a04ac80f27557, actions {actions=[org.openqa.selenium.interactions.Sequence@771cbb1a]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\RUPAMD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56057}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56057/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ed43fde841ac177ad76a04ac80f27557
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:637)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+	at automation_fresher_training.Assignment3.ChangeLanguageTest.changeLanguage(ChangeLanguageTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.LogoTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogo">
+                  </a> <!-- testLogo -->
+                  <span class="method-name">testLogo</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [AMAZON] but found [.in]
+	at automation_fresher_training.Assignment3.LogoTest.testLogo(LogoTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.FontTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPageFont">
+                  </a> <!-- testPageFont -->
+                  <span class="method-name">testPageFont</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [14px / 30px Arial, sans-serif] but found [14px / 20px &quot;Amazon Ember&quot;, Arial, sans-serif]
+	at automation_fresher_training.Assignment3.FontTest.testPageFont(FontTest.java:14)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithBlankCredentials">
+                  </a> <!-- validateLoginWithBlankCredentials -->
+                  <span class="method-name">validateLoginWithBlankCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithInValidCredentials">
+                  </a> <!-- validateLoginWithInValidCredentials -->
+                  <span class="method-name">validateLoginWithInValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginWithValidCredentials">
+                  </a> <!-- validateLoginWithValidCredentials -->
+                  <span class="method-name">validateLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.NavigationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigations">
+                  </a> <!-- testNavigations -->
+                  <span class="method-name">testNavigations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="add_item_to_cart">
+                  </a> <!-- add_item_to_cart -->
+                  <span class="method-name">add_item_to_cart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.RegisterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisteration">
+                  </a> <!-- validateRegisteration -->
+                  <span class="method-name">validateRegisteration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_mobile">
+                  </a> <!-- search_mobile -->
+                  <span class="method-name">search_mobile</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="search_using_keyboard">
+                  </a> <!-- search_using_keyboard -->
+                  <span class="method-name">search_using_keyboard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">automation_fresher_training.Assignment3.LocaleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeLocation">
+                  </a> <!-- changeLocation -->
+                  <span class="method-name">changeLocation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.BaseTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.CartTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.ChangeLanguageTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.FontTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.LocaleTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.LoginTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.LogoTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.NavigationTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.RegisterTest&quot;/&gt;
+      &lt;class name=&quot;automation_fresher_training.Assignment3.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (10 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'add_item_to_cart')
+data.setCell(0, 2, 'automation_fresher_training.Assignment3.CartTest')
+data.setCell(0, 3, 39121);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'changeLocation')
+data.setCell(1, 2, 'automation_fresher_training.Assignment3.LocaleTest')
+data.setCell(1, 3, 11745);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'changeLanguage')
+data.setCell(2, 2, 'automation_fresher_training.Assignment3.ChangeLanguageTest')
+data.setCell(2, 3, 5263);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateLoginWithValidCredentials')
+data.setCell(3, 2, 'automation_fresher_training.Assignment3.LoginTest')
+data.setCell(3, 3, 3031);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'search_mobile')
+data.setCell(4, 2, 'automation_fresher_training.Assignment3.SearchTest')
+data.setCell(4, 3, 2710);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'search_using_keyboard')
+data.setCell(5, 2, 'automation_fresher_training.Assignment3.SearchTest')
+data.setCell(5, 3, 2423);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateLoginWithInValidCredentials')
+data.setCell(6, 2, 'automation_fresher_training.Assignment3.LoginTest')
+data.setCell(6, 3, 2171);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateLoginWithBlankCredentials')
+data.setCell(7, 2, 'automation_fresher_training.Assignment3.LoginTest')
+data.setCell(7, 3, 2040);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'validateRegisteration')
+data.setCell(8, 2, 'automation_fresher_training.Assignment3.RegisterTest')
+data.setCell(8, 3, 1969);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testNavigations')
+data.setCell(9, 2, 'automation_fresher_training.Assignment3.NavigationTest')
+data.setCell(9, 3, 255);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testLogo')
+data.setCell(10, 2, 'automation_fresher_training.Assignment3.LogoTest')
+data.setCell(10, 3, 79);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testPageFont')
+data.setCell(11, 2, 'automation_fresher_training.Assignment3.FontTest')
+data.setCell(11, 3, 48);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">27 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.ChangeLanguageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.LogoTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.NavigationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.CartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.RegisterTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.FontTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.LocaleTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">automation_fresher_training.Assignment3.SearchTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">destroy</span>
+                <br/>
+                <span class="ignored-method-name">testStart</span>
+                <br/>
+                <span class="ignored-method-name">testSetup</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">testSetup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">testStart</span>
+                <span class="method-start">3877 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.CartTest.add_item_to_cart() throws java.l...)</span>
+                <span class="method-start">3929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">add_item_to_cart</span>
+                <span class="method-start">17806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=add_item_to_cart status=SUCCESS method=CartTest.add_item_to_cart()[pri:0, instance:...)</span>
+                <span class="method-start">56929 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.ChangeLanguageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.ChangeLanguageTest.changeLanguage() throw...)</span>
+                <span class="method-start">56936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">changeLanguage</span>
+                <span class="method-start">68336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=changeLanguage status=FAILURE method=ChangeLanguageTest.changeLanguage()[pri:0, ins...)</span>
+                <span class="method-start">73606 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.FontTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.FontTest.testPageFont())</span>
+                <span class="method-start">74135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testPageFont</span>
+                <span class="method-start">85424 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=testPageFont status=FAILURE method=FontTest.testPageFont()[pri:0, instance:automati...)</span>
+                <span class="method-start">85473 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.LocaleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.LocaleTest.changeLocation() throws java.l...)</span>
+                <span class="method-start">86113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">changeLocation</span>
+                <span class="method-start">97298 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=changeLocation status=SUCCESS method=LocaleTest.changeLocation()[pri:0, instance:au...)</span>
+                <span class="method-start">109043 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.LoginTest.validateLoginWithValidCredentia...)</span>
+                <span class="method-start">109046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithValidCredentials</span>
+                <span class="method-start">120474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=validateLoginWithValidCredentials status=SUCCESS method=LoginTest.validateLoginWith...)</span>
+                <span class="method-start">123505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.LoginTest.validateLoginWithInValidCredent...)</span>
+                <span class="method-start">123507 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithInValidCredentials</span>
+                <span class="method-start">135292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=validateLoginWithInValidCredentials status=SUCCESS method=LoginTest.validateLoginWi...)</span>
+                <span class="method-start">137463 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.LoginTest.validateLoginWithBlankCredentia...)</span>
+                <span class="method-start">137464 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginWithBlankCredentials</span>
+                <span class="method-start">149811 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=validateLoginWithBlankCredentials status=SUCCESS method=LoginTest.validateLoginWith...)</span>
+                <span class="method-start">151851 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.LogoTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.LogoTest.testLogo())</span>
+                <span class="method-start">151856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogo</span>
+                <span class="method-start">163596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=testLogo status=FAILURE method=LogoTest.testLogo()[pri:0, instance:automation_fresh...)</span>
+                <span class="method-start">163675 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.NavigationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.NavigationTest.testNavigations())</span>
+                <span class="method-start">164683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigations</span>
+                <span class="method-start">175886 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=testNavigations status=SUCCESS method=NavigationTest.testNavigations()[pri:0, insta...)</span>
+                <span class="method-start">176142 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.RegisterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.RegisterTest.validateRegisteration())</span>
+                <span class="method-start">176144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisteration</span>
+                <span class="method-start">187277 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=validateRegisteration status=SUCCESS method=RegisterTest.validateRegisteration()[pr...)</span>
+                <span class="method-start">189247 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.SearchTest.search_mobile())</span>
+                <span class="method-start">189249 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_mobile</span>
+                <span class="method-start">200471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=search_mobile status=SUCCESS method=SearchTest.search_mobile()[pri:0, instance:auto...)</span>
+                <span class="method-start">203181 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">testCaseStart(public static void automation_fresher_training.Assignment3.SearchTest.search_using_keyboard())</span>
+                <span class="method-start">203185 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">search_using_keyboard</span>
+                <span class="method-start">214630 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">testCaseReport([TestResult name=search_using_keyboard status=SUCCESS method=SearchTest.search_using_keyboard()[pri:...)</span>
+                <span class="method-start">217053 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">automation_fresher_training.Assignment3.BaseTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">destroy</span>
+                <span class="method-start">217111 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,77 @@
+2022-11-30 18:32:37 INFO  FlipKart Test:84 - using browser chrome
+   2022-11-30 18:32:40 INFO  FlipKart Test:93 - Initilising Driver
+   2022-11-30 18:32:40 INFO  FlipKart Test:95 - Managing Timeouts
+   2022-11-30 18:32:40 INFO  FlipKart Test:97 - Initilising Driver
+   2022-11-30 18:32:40 INFO  FlipKart Test:98 - Maximize browser window
+   2022-11-30 18:32:40 INFO  FlipKart Test:135 - Report Generation at : C:\Users\rupamdasgupta\eclipse-workspace\exit_test_selenium\test_reports\report.html
+   2022-11-30 18:32:40 INFO  FlipKart Test:144 - Starting Test
+   2022-11-30 18:32:40 INFO  FlipKart Test:152 - Starting Test Case :verify_banner_width
+   2022-11-30 18:34:15 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:34:15 INFO  FlipKart Test:197 - Ending Test Case :verify_banner_width
+   2022-11-30 18:34:15 INFO  FlipKart Test:152 - Starting Test Case :verify_color_scheme
+   2022-11-30 18:34:26 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:34:26 INFO  FlipKart Test:197 - Ending Test Case :verify_color_scheme
+   2022-11-30 18:34:26 INFO  FlipKart Test:152 - Starting Test Case :verify_help_center_link
+   2022-11-30 18:34:48 INFO  FlipKart Test:187 - Test Case Failure
+   2022-11-30 18:34:49 INFO  FlipKart Test:189 - Screenshot Taken
+   2022-11-30 18:34:49 INFO  FlipKart Test:197 - Ending Test Case :verify_help_center_link
+   2022-11-30 18:34:50 INFO  FlipKart Test:152 - Starting Test Case :validate_login
+   2022-11-30 18:35:01 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:35:01 INFO  FlipKart Test:197 - Ending Test Case :validate_login
+   2022-11-30 18:35:01 INFO  FlipKart Test:152 - Starting Test Case :validate_login
+   2022-11-30 18:35:23 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:35:23 INFO  FlipKart Test:197 - Ending Test Case :validate_login
+   2022-11-30 18:35:23 INFO  FlipKart Test:152 - Starting Test Case :validate_login
+   2022-11-30 18:35:44 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:35:44 INFO  FlipKart Test:197 - Ending Test Case :validate_login
+   2022-11-30 18:35:44 INFO  FlipKart Test:152 - Starting Test Case :validate_login
+   2022-11-30 18:36:06 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:36:06 INFO  FlipKart Test:197 - Ending Test Case :validate_login
+   2022-11-30 18:36:06 INFO  FlipKart Test:152 - Starting Test Case :verify_logo_text
+   2022-11-30 18:36:17 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:36:17 INFO  FlipKart Test:197 - Ending Test Case :verify_logo_text
+   2022-11-30 18:36:17 INFO  FlipKart Test:152 - Starting Test Case :verify_flipkart_plus
+   2022-11-30 18:36:28 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:36:28 INFO  FlipKart Test:197 - Ending Test Case :verify_flipkart_plus
+   2022-11-30 18:36:28 INFO  FlipKart Test:152 - Starting Test Case :verify_grocery_link
+   2022-11-30 18:36:39 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:36:39 INFO  FlipKart Test:197 - Ending Test Case :verify_grocery_link
+   2022-11-30 18:36:39 INFO  FlipKart Test:152 - Starting Test Case :verify_mobile_link
+   2022-11-30 18:36:51 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:36:51 INFO  FlipKart Test:197 - Ending Test Case :verify_mobile_link
+   2022-11-30 18:36:51 INFO  FlipKart Test:152 - Starting Test Case :verify_appliance_link
+   2022-11-30 18:37:02 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:37:02 INFO  FlipKart Test:197 - Ending Test Case :verify_appliance_link
+   2022-11-30 18:37:02 INFO  FlipKart Test:152 - Starting Test Case :verify_travel_link
+   2022-11-30 18:37:13 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:37:13 INFO  FlipKart Test:197 - Ending Test Case :verify_travel_link
+   2022-11-30 18:37:13 INFO  FlipKart Test:152 - Starting Test Case :verify_top_offers_link
+   2022-11-30 18:37:33 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:37:33 INFO  FlipKart Test:197 - Ending Test Case :verify_top_offers_link
+   2022-11-30 18:37:33 INFO  FlipKart Test:152 - Starting Test Case :verify_two_wheelers_link
+   2022-11-30 18:37:44 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:37:44 INFO  FlipKart Test:197 - Ending Test Case :verify_two_wheelers_link
+   2022-11-30 18:37:44 INFO  FlipKart Test:152 - Starting Test Case :verify_product_search_using_click
+   2022-11-30 18:37:56 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:37:56 INFO  FlipKart Test:197 - Ending Test Case :verify_product_search_using_click
+   2022-11-30 18:37:56 INFO  FlipKart Test:152 - Starting Test Case :verify_product_search_using_click
+   2022-11-30 18:38:07 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:38:07 INFO  FlipKart Test:197 - Ending Test Case :verify_product_search_using_click
+   2022-11-30 18:38:07 INFO  FlipKart Test:152 - Starting Test Case :verify_product_search_using_keyPress
+   2022-11-30 18:38:19 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:38:19 INFO  FlipKart Test:197 - Ending Test Case :verify_product_search_using_keyPress
+   2022-11-30 18:38:19 INFO  FlipKart Test:152 - Starting Test Case :verify_product_search_using_keyPress
+   2022-11-30 18:38:30 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:38:30 INFO  FlipKart Test:197 - Ending Test Case :verify_product_search_using_keyPress
+   2022-11-30 18:38:30 INFO  FlipKart Test:152 - Starting Test Case :verify_search_bar_placeholder
+   2022-11-30 18:38:41 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:38:41 INFO  FlipKart Test:197 - Ending Test Case :verify_search_bar_placeholder
+   2022-11-30 18:38:41 INFO  FlipKart Test:152 - Starting Test Case :verify_seller_hub_link
+   2022-11-30 18:38:58 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:38:58 INFO  FlipKart Test:197 - Ending Test Case :verify_seller_hub_link
+   2022-11-30 18:38:58 INFO  FlipKart Test:152 - Starting Test Case :verify_spokeperson_name_on_sellerhub
+   2022-11-30 18:39:12 INFO  FlipKart Test:180 - Test case success
+   2022-11-30 18:39:12 INFO  FlipKart Test:197 - Ending Test Case :verify_spokeperson_name_on_sellerhub
+   2022-11-30 18:39:12 INFO  FlipKart Test:208 - Saving reports
+   2022-11-30 18:39:13 INFO  FlipKart Test:210 - Quiting
+   
