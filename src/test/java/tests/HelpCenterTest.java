@@ -14,7 +14,7 @@ import pages.Dashboard;
 
 public class HelpCenterTest extends BaseTest {
 	
-	@Test(priority = 13 , enabled = true)
+	@Test(priority = 13 , enabled = false)
 	public static void verify_help_center_link() throws InterruptedException {
 		Dashboard dashboard = new Dashboard();
 		Actions action = new Actions(driver);
