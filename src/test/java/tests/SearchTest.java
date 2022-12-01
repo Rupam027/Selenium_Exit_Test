@@ -18,7 +18,7 @@ import utilities.ExtractDataFromExcel;
 
 public class SearchTest extends BaseTest {
 	
-	@Test(priority = 9 , enabled = true , dataProvider = "searchData")
+	@Test(priority = 9 , enabled = true , dataProvider = "searchData" , groups = {"header" , "search"})
 	public static void  verify_product_search_using_click(Object data , Object execution_required) throws InterruptedException {
 		
 		if(execution_required.toString().equalsIgnoreCase("no"))
@@ -34,7 +34,7 @@ public class SearchTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 10 , enabled = true , dataProvider = "searchData")
+	@Test(priority = 10 , enabled = true , dataProvider = "searchData" , groups = {"header" , "search"})
 	public static void  verify_product_search_using_keyPress(Object data , Object execution_required) throws InterruptedException {
 		
 		if(execution_required.toString().equalsIgnoreCase("no"))
@@ -50,7 +50,7 @@ public class SearchTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 14 , enabled = true)
+	@Test(priority = 14 , enabled = true , groups = {"header" , "search"})
 	public static void verify_search_bar_placeholder() throws InterruptedException {
 		
 		openUrlandWaitForPagetoLoad();

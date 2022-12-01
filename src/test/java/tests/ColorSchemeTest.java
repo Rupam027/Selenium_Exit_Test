@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.NoSuchElementException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +10,7 @@ import pages.HeaderTab;
 
 public class ColorSchemeTest extends BaseTest {
 
-	@Test(priority = 11 , enabled = true)
+	@Test(priority = 11 , enabled = true , groups = {"header"})
 	public void verify_color_scheme() throws InterruptedException {
 		HeaderTab tab = new HeaderTab();
 		openUrlandWaitForPagetoLoad();

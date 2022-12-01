@@ -1,17 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 22, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 396.986 s <<< FAILURE! - in TestSuite
-verify_help_center_link(tests.HelpCenterTest)  Time elapsed: 21.945 s  <<< FAILURE!
-org.openqa.selenium.ElementNotInteractableException: 
-element not interactable
-  (Session info: chrome=108.0.5359.72)
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'IN-FRB1L13', ip: '192.168.29.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ec0010f987118501c5f87640a8c02af, clickElement {id=4f5d3e91-72dc-47fc-bf47-95008ca0b7b0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\RUPAMD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63788/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0ec0010f987118501c5f87640a8c02af)] -> xpath: //*[@id="container"]/div/footer/div/div[3]/div[2]/div/div[4]/a/span]
-Session ID: 0ec0010f987118501c5f87640a8c02af
-	at tests.HelpCenterTest.verify_help_center_link(HelpCenterTest.java:29)
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 312.178 s <<< FAILURE! - in TestSuite
+verify_spokeperson_name_on_sellerhub(tests.SellerHubTest)  Time elapsed: 13.991 s  <<< FAILURE!
+java.lang.AssertionError: expected [Chaitanya Ramalingegowda] but found []
+	at tests.SellerHubTest.verify_spokeperson_name_on_sellerhub(SellerHubTest.java:32)
 

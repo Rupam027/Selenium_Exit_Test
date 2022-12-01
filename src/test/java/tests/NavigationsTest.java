@@ -9,7 +9,7 @@ import pages.NavigationTab;
 
 public class NavigationsTest extends BaseTest {
 	
-	@Test(priority = 1 , enabled = true)
+	@Test(priority = 1 , enabled = true , groups = {"navigation"})
 	public static void  verify_grocery_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();
@@ -20,7 +20,7 @@ public class NavigationsTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 2 , enabled = true)
+	@Test(priority = 2 , enabled = true , groups = {"navigation"})
 	public static void  verify_mobile_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();
@@ -32,7 +32,7 @@ public class NavigationsTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 3 , enabled = true)
+	@Test(priority = 3 , enabled = true , groups = {"navigation"})
 	public static void  verify_appliance_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();
@@ -45,7 +45,7 @@ public class NavigationsTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 4 , enabled = true)
+	@Test(priority = 4 , enabled = true , groups = {"navigation"})
 	public static void  verify_travel_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();
@@ -57,7 +57,7 @@ public class NavigationsTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 5 , enabled = true)
+	@Test(priority = 5 , enabled = true , groups = {"navigation"})
 	public static void  verify_top_offers_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();
@@ -68,7 +68,7 @@ public class NavigationsTest extends BaseTest {
 	
 	}
 	
-	@Test(priority = 6 , enabled = true)
+	@Test(priority = 6 , enabled = true , groups = {"navigation"})
 	public static void  verify_two_wheelers_link() throws InterruptedException {
 		openUrlandWaitForPagetoLoad();
 		NavigationTab tab = new NavigationTab();

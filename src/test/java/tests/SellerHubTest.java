@@ -11,7 +11,7 @@ import pages.SellerHubPage;
 public class SellerHubTest extends BaseTest {
 	
 	
-	@Test(priority = 15 , enabled = true)
+	@Test(priority = 15 , enabled = true , groups = {"header"})
 	public static void verify_seller_hub_link() throws InterruptedException {
 		HeaderTab tab = new HeaderTab();
 		
@@ -21,7 +21,7 @@ public class SellerHubTest extends BaseTest {
 		Assert.assertEquals(driver.getCurrentUrl().split("\\?")[0], "https://seller.flipkart.com/sell-online/");
 	}
 	
-	@Test(priority = 15 , enabled = true)
+	@Test(priority = 15 , enabled = true , groups = {"sellerhub"})
 	public static void verify_spokeperson_name_on_sellerhub() throws InterruptedException {
 		HeaderTab tab = new HeaderTab();
 		SellerHubPage page = new SellerHubPage();
