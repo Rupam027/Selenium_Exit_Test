@@ -1,0 +1,33 @@
+# Created at 2022-11-30T19:58:12.485
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-11-30T19:58:20.292
+Unexpected IOException: 6,1,tests.NavigationsTest,verify_mobile_link(tests.NavigationsTest),null,null,null
+
+
+# Created at 2022-11-30T19:58:20.302
+Unexpected IOException: 5,1,tests.NavigationsTest,verify_appliance_link(tests.NavigationsTest),tests.NavigationsTest,null,null
+
+
+# Created at 2022-11-30T19:58:31.544
+Unexpected IOException: 6,1,tests.NavigationsTest,verify_appliance_link(tests.NavigationsTest),null,null,null
+
+
+# Created at 2022-11-30T19:58:31.551
+Unexpected IOException: 5,1,tests.NavigationsTest,verify_travel_link(tests.NavigationsTest),tests.NavigationsTest,null,null
+
+
+# Created at 2022-11-30T19:58:42.964
+Unexpected IOException: 6,1,tests.NavigationsTest,verify_travel_link(tests.NavigationsTest),null,null,null
+
+
+# Created at 2022-11-30T19:58:42.968
+Unexpected IOException: 5,1,tests.NavigationsTest,verify_top_offers_link(tests.NavigationsTest),tests.NavigationsTest,null,null
+
+

@@ -10,7 +10,7 @@ import pages.HeaderTab;
 
 public class LogoTest extends BaseTest {
 	
-	@Test(priority = 7 , enabled = true)
+	@Test(priority = 7 , enabled = true , groups = {"header"})
 	public void verify_logo_text() throws InterruptedException {
 		HeaderTab tab = new HeaderTab();
 		openUrlandWaitForPagetoLoad();
@@ -19,7 +19,7 @@ public class LogoTest extends BaseTest {
 	}
 	
 	
-	@Test(priority = 8 , enabled = true)
+	@Test(priority = 8 , enabled = true , groups = {"header"})
 	public void verify_flipkart_plus() throws InterruptedException {
 		
 		HeaderTab tab = new HeaderTab();

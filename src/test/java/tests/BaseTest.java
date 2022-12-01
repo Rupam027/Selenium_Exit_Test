@@ -10,6 +10,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -31,7 +32,7 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-
+import pages.PopUp;
 import utilities.ScreenShot;
 
 public class BaseTest {
@@ -45,7 +46,7 @@ public class BaseTest {
 	     public static ExtentTest testLog ;
 	     public static int testcaseid ; 
 	     
-	     public static Logger logger = Logger.getLogger("FlipKart Test");
+	     public static Logger logger = Logger.getLogger("Flipkart Test");
 	     
 	     
 	     static {
@@ -165,6 +166,21 @@ public class BaseTest {
 		    	testLog.log(LogStatus.PASS , "Lauching Application Url");
 		    else
 		    	testLog.log(LogStatus.FAIL,  "Url inaccessible or timeout");
+		    
+		    boolean IsPopUpPresent ; 
+		    PopUp pop_up = new PopUp();
+		    try {
+		    	
+				driver.findElement(pop_up.cross);
+				IsPopUpPresent = true ;
+			}
+			catch(NoSuchElementException e) {
+				IsPopUpPresent = false ;
+			}
+				
+			if(IsPopUpPresent) {
+				driver.findElement(pop_up.cross).click();
+			}
 	    }
 	    
 	    
@@ -185,7 +201,7 @@ public class BaseTest {
 	    		
 	    		testLog.log(LogStatus.FAIL , result.getThrowable().toString());
 	    		logger.info("Test Case Failure");
-	    		ScreenShot.captureScreenShot(driver, "TestCase" + testcaseid + "_" + testLog.getTest().getName());
+	    		ScreenShot.captureScreenShot(driver, testLog.getTest().getName() + ".jpg");
 	    		logger.info("Screenshot Taken");
 	    	 
 	    	 }

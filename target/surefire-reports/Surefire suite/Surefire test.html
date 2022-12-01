@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 30 18:32:40 IST 2022</td>
+<td>Started on:</td><td>Wed Nov 30 20:01:25 IST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>391 seconds (391887 ms)</td>
+<tr><td>Total time:</td><td>307 seconds (307316 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,51 +76,19 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.HelpCenterTest.verify_help_center_link()'><b>verify_help_center_link</b><br>Test class: tests.HelpCenterTest</td>
-<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=108.0.5359.72)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;IN-FRB1L13&apos;, ip: &apos;192.168.29.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ec0010f987118501c5f87640a8c02af, clickElement {id=4f5d3e91-72dc-47fc-bf47-95008ca0b7b0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\RUPAMD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63788/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0ec0010f987118501c5f87640a8c02af)] -&gt; xpath: //*[@id=&quot;container&quot;]/div/footer/div/div[3]/div[2]/div/div[4]/a/span]
-Session ID: 0ec0010f987118501c5f87640a8c02af
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at tests.HelpCenterTest.verify_help_center_link(HelpCenterTest.java:29)
+<td title='tests.SellerHubTest.verify_spokeperson_name_on_sellerhub()'><b>verify_spokeperson_name_on_sellerhub</b><br>Test class: tests.SellerHubTest</td>
+<td><div><pre>java.lang.AssertionError: expected [Chaitanya Ramalingegowda] but found []
+	at tests.SellerHubTest.verify_spokeperson_name_on_sellerhub(SellerHubTest.java:32)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1320443884", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1320443884'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=108.0.5359.72)
-Build info: version: &apos;4.3.0&apos;, revision: &apos;a4995e2c09*&apos;
-System info: host: &apos;IN-FRB1L13&apos;, ip: &apos;192.168.29.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0ec0010f987118501c5f87640a8c02af, clickElement {id=4f5d3e91-72dc-47fc-bf47-95008ca0b7b0}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.72, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\RUPAMD~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63788}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63788/devtoo..., se:cdpVersion: 108.0.5359.72, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on WINDOWS (0ec0010f987118501c5f87640a8c02af)] -&gt; xpath: //*[@id=&quot;container&quot;]/div/footer/div/div[3]/div[2]/div/div[4]/a/span]
-Session ID: 0ec0010f987118501c5f87640a8c02af
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
-	at tests.HelpCenterTest.verify_help_center_link(HelpCenterTest.java:29)
+... Removed 38 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1430104337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1430104337'><pre>java.lang.AssertionError: expected [Chaitanya Ramalingegowda] but found []
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at tests.SellerHubTest.verify_spokeperson_name_on_sellerhub(SellerHubTest.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -155,8 +123,8 @@ Session ID: 0ec0010f987118501c5f87640a8c02af
 	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 </pre></div></td>
-<td>21</td>
-<td>tests.HelpCenterTest@609e8838</td></tr>
+<td>13</td>
+<td>tests.SellerHubTest@302c971f</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -167,110 +135,105 @@ Session ID: 0ec0010f987118501c5f87640a8c02af
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.SearchTest.verify_product_search_using_click()'><b>verify_product_search_using_click</b><br>Test class: tests.SearchTest<br>Parameters: mobile, yes</td>
-<td></td>
-<td>11</td>
-<td>tests.SearchTest@792b749c</td></tr>
-<tr>
-<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters: 8.918214738E9,  , yes,  </td>
-<td></td>
-<td>21</td>
-<td>tests.LoginTest@359df09a</td></tr>
-<tr>
-<td title='tests.SearchTest.verify_product_search_using_keyPress()'><b>verify_product_search_using_keyPress</b><br>Test class: tests.SearchTest<br>Parameters: mobile, yes</td>
-<td></td>
-<td>11</td>
-<td>tests.SearchTest@792b749c</td></tr>
-<tr>
-<td title='tests.SellerHubTest.verify_seller_hub_link()'><b>verify_seller_hub_link</b><br>Test class: tests.SellerHubTest</td>
-<td></td>
-<td>16</td>
-<td>tests.SellerHubTest@23e84203</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_travel_link()'><b>verify_travel_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>11</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
-<tr>
-<td title='tests.LogoTest.verify_logo_text()'><b>verify_logo_text</b><br>Test class: tests.LogoTest</td>
-<td></td>
-<td>11</td>
-<td>tests.LogoTest@43df23d3</td></tr>
-<tr>
-<td title='tests.LogoTest.verify_flipkart_plus()'><b>verify_flipkart_plus</b><br>Test class: tests.LogoTest</td>
-<td></td>
-<td>11</td>
-<td>tests.LogoTest@43df23d3</td></tr>
-<tr>
-<td title='tests.SearchTest.verify_product_search_using_keyPress()'><b>verify_product_search_using_keyPress</b><br>Test class: tests.SearchTest<br>Parameters: tv, yes</td>
-<td></td>
-<td>11</td>
-<td>tests.SearchTest@792b749c</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_appliance_link()'><b>verify_appliance_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>11</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
-<tr>
 <td title='tests.SearchTest.verify_product_search_using_click()'><b>verify_product_search_using_click</b><br>Test class: tests.SearchTest<br>Parameters: tv, yes</td>
 <td></td>
 <td>11</td>
-<td>tests.SearchTest@792b749c</td></tr>
-<tr>
-<td title='tests.SearchTest.verify_search_bar_placeholder()'><b>verify_search_bar_placeholder</b><br>Test class: tests.SearchTest</td>
-<td></td>
-<td>11</td>
-<td>tests.SearchTest@792b749c</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_mobile_link()'><b>verify_mobile_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>11</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
-<tr>
-<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters: 8.918214738E9, Rupam2000, yes,  </td>
-<td></td>
-<td>11</td>
-<td>tests.LoginTest@359df09a</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_grocery_link()'><b>verify_grocery_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>11</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_two_wheelers_link()'><b>verify_two_wheelers_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>11</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
-<tr>
-<td title='tests.SellerHubTest.verify_spokeperson_name_on_sellerhub()'><b>verify_spokeperson_name_on_sellerhub</b><br>Test class: tests.SellerHubTest</td>
-<td></td>
-<td>14</td>
-<td>tests.SellerHubTest@23e84203</td></tr>
-<tr>
-<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters:  ,  , yes,  </td>
-<td></td>
-<td>21</td>
-<td>tests.LoginTest@359df09a</td></tr>
-<tr>
-<td title='tests.NavigationsTest.verify_top_offers_link()'><b>verify_top_offers_link</b><br>Test class: tests.NavigationsTest</td>
-<td></td>
-<td>20</td>
-<td>tests.NavigationsTest@6d60fe40</td></tr>
+<td>tests.SearchTest@305ffe9e</td></tr>
 <tr>
 <td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters:  , Rupam2000, yes,  </td>
 <td></td>
 <td>21</td>
-<td>tests.LoginTest@359df09a</td></tr>
+<td>tests.LoginTest@19932c16</td></tr>
+<tr>
+<td title='tests.SearchTest.verify_product_search_using_keyPress()'><b>verify_product_search_using_keyPress</b><br>Test class: tests.SearchTest<br>Parameters: tv, yes</td>
+<td></td>
+<td>11</td>
+<td>tests.SearchTest@305ffe9e</td></tr>
+<tr>
+<td title='tests.SellerHubTest.verify_seller_hub_link()'><b>verify_seller_hub_link</b><br>Test class: tests.SellerHubTest</td>
+<td></td>
+<td>19</td>
+<td>tests.SellerHubTest@302c971f</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_two_wheelers_link()'><b>verify_two_wheelers_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.LogoTest.verify_logo_text()'><b>verify_logo_text</b><br>Test class: tests.LogoTest</td>
+<td></td>
+<td>11</td>
+<td>tests.LogoTest@73eb439a</td></tr>
+<tr>
+<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters: 8.918214738E9, Rupam2000, yes,  </td>
+<td></td>
+<td>11</td>
+<td>tests.LoginTest@19932c16</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_travel_link()'><b>verify_travel_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.SearchTest.verify_product_search_using_keyPress()'><b>verify_product_search_using_keyPress</b><br>Test class: tests.SearchTest<br>Parameters: mobile, yes</td>
+<td></td>
+<td>11</td>
+<td>tests.SearchTest@305ffe9e</td></tr>
+<tr>
+<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters:  ,  , yes,  </td>
+<td></td>
+<td>21</td>
+<td>tests.LoginTest@19932c16</td></tr>
+<tr>
+<td title='tests.LogoTest.verify_flipkart_plus()'><b>verify_flipkart_plus</b><br>Test class: tests.LogoTest</td>
+<td></td>
+<td>11</td>
+<td>tests.LogoTest@73eb439a</td></tr>
+<tr>
+<td title='tests.SearchTest.verify_product_search_using_click()'><b>verify_product_search_using_click</b><br>Test class: tests.SearchTest<br>Parameters: mobile, yes</td>
+<td></td>
+<td>11</td>
+<td>tests.SearchTest@305ffe9e</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_grocery_link()'><b>verify_grocery_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_mobile_link()'><b>verify_mobile_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.SearchTest.verify_search_bar_placeholder()'><b>verify_search_bar_placeholder</b><br>Test class: tests.SearchTest</td>
+<td></td>
+<td>11</td>
+<td>tests.SearchTest@305ffe9e</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_top_offers_link()'><b>verify_top_offers_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.NavigationsTest.verify_appliance_link()'><b>verify_appliance_link</b><br>Test class: tests.NavigationsTest</td>
+<td></td>
+<td>11</td>
+<td>tests.NavigationsTest@514646ef</td></tr>
+<tr>
+<td title='tests.LoginTest.validate_login()'><b>validate_login</b><br>Test class: tests.LoginTest<br>Parameters: 8.918214738E9,  , yes,  </td>
+<td></td>
+<td>21</td>
+<td>tests.LoginTest@19932c16</td></tr>
 <tr>
 <td title='tests.BannerTest.verify_banner_width()'><b>verify_banner_width</b><br>Test class: tests.BannerTest</td>
 <td></td>
-<td>94</td>
-<td>tests.BannerTest@7188af83</td></tr>
+<td>39</td>
+<td>tests.BannerTest@303cf2ba</td></tr>
 <tr>
 <td title='tests.ColorSchemeTest.verify_color_scheme()'><b>verify_color_scheme</b><br>Test class: tests.ColorSchemeTest</td>
 <td></td>
 <td>11</td>
-<td>tests.ColorSchemeTest@2b30a42c</td></tr>
+<td>tests.ColorSchemeTest@792b749c</td></tr>
 </table><p>
 </body>
 </html>

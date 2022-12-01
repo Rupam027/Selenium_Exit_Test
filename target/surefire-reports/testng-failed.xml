@@ -3,16 +3,16 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="tests.HelpCenterTest">
+      <class name="tests.SellerHubTest">
         <methods>
           <include name="testCaseReport"/>
           <include name="testSetup"/>
-          <include name="verify_help_center_link"/>
           <include name="testStart"/>
           <include name="testCaseStart"/>
+          <include name="verify_spokeperson_name_on_sellerhub"/>
           <include name="destroy"/>
         </methods>
-      </class> <!-- tests.HelpCenterTest -->
+      </class> <!-- tests.SellerHubTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

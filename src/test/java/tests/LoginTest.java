@@ -12,29 +12,16 @@ import utilities.ExtractDataFromExcel;
 
 public class LoginTest extends BaseTest {
 	
-	@Test(priority = 0 , enabled = true , dataProvider = "getLoginData")
+	@Test(priority = 0 , enabled = true , dataProvider = "getLoginData" , groups = {"header" , "login"})
 	public static void validate_login(Object phone , Object password , Object execution_required , Object blank) throws InterruptedException {
 		
 		if(execution_required.toString().equalsIgnoreCase("no"))
 			throw new SkipException("Execution Not Required");
 		
-		boolean IsPopUpPresent ;
+		
 		LoginPage page = new LoginPage();
 		
 		openUrlandWaitForPagetoLoad();
-		
-		try {
-			driver.findElement(page.cross);
-			IsPopUpPresent = true ;
-		}
-		catch(NoSuchElementException e) {
-			IsPopUpPresent = false ;
-		}
-			
-		if(IsPopUpPresent) {
-			driver.findElement(page.cross).click();
-		}
-		
 		driver.findElement(page.login_btn).click();
 		driver.findElement(page.phone).sendKeys(phone.toString()) ;
 		driver.findElement(page.password).sendKeys(password.toString()) ;

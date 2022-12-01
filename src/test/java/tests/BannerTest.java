@@ -9,7 +9,7 @@ import pages.Dashboard;
 
 public class BannerTest extends BaseTest {
 	
-	@Test(priority = 12 , enabled = true)
+	@Test(priority = 12 , enabled = true , groups = {"dashboard"})
 	public static void verify_banner_width() throws InterruptedException {
 		
 		Dashboard dashboard = new Dashboard();
