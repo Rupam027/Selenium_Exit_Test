@@ -80,7 +80,7 @@ public class BaseTest {
 	     
 	     
 	     @BeforeSuite
-	     public static void testSetup() {
+	     public static void testSetup() throws Exception {
 	    	 
 	    	 logger.info("using browser " + config_prop.get("browser_name"));
 	    	 if(config_prop.get("browser_name").toString().equals("chrome")) {
@@ -131,7 +131,8 @@ public class BaseTest {
 		    	 logger.info("Maximize browser window");
 		    	 
 	    	 }
-	    	 
+	    	 else
+	    		 throw new Exception("Browser Name is Invalid");
 	    	 report = new ExtentReports(System.getProperty("user.dir") + "\\test_reports\\report.html");
 	    	 logger.info("Report Generation at : " + System.getProperty("user.dir") + "\\test_reports\\report.html");
 	    	 
@@ -196,7 +197,9 @@ public class BaseTest {
 	    		logger.info("Test case success");
 	    		
 		     }
-	    	
+	    	else if(result.getStatus() == ITestResult.SKIP)
+	    		testLog.log(LogStatus.SKIP , "Test case skipped . Execution required is 'no' in test data");
+	    		
 	    	else if(result.getStatus() == ITestResult.FAILURE){
 	    		
 	    		testLog.log(LogStatus.FAIL , result.getThrowable().toString());

@@ -1,17 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="25" total="46" passed="20" failed="1" skipped="0">
+<testng-results ignored="25" total="46" passed="19" failed="0" skipped="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-30T20:01:25 IST" name="Surefire suite" finished-at="2022-11-30T20:06:32 IST" duration-ms="307316">
+  <suite started-at="2022-12-03T15:46:54 IST" name="Surefire suite" finished-at="2022-12-03T15:54:51 IST" duration-ms="477047">
     <groups>
+      <group name="search">
+        <method signature="SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e]" name="verify_product_search_using_click" class="tests.SearchTest"/>
+        <method signature="SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e]" name="verify_product_search_using_keyPress" class="tests.SearchTest"/>
+        <method signature="SearchTest.verify_search_bar_placeholder()[pri:14, instance:tests.SearchTest@305ffe9e]" name="verify_search_bar_placeholder" class="tests.SearchTest"/>
+      </group> <!-- search -->
+      <group name="navigation">
+        <method signature="NavigationsTest.verify_grocery_link()[pri:1, instance:tests.NavigationsTest@514646ef]" name="verify_grocery_link" class="tests.NavigationsTest"/>
+        <method signature="NavigationsTest.verify_mobile_link()[pri:2, instance:tests.NavigationsTest@514646ef]" name="verify_mobile_link" class="tests.NavigationsTest"/>
+        <method signature="NavigationsTest.verify_appliance_link()[pri:3, instance:tests.NavigationsTest@514646ef]" name="verify_appliance_link" class="tests.NavigationsTest"/>
+        <method signature="NavigationsTest.verify_travel_link()[pri:4, instance:tests.NavigationsTest@514646ef]" name="verify_travel_link" class="tests.NavigationsTest"/>
+        <method signature="NavigationsTest.verify_top_offers_link()[pri:5, instance:tests.NavigationsTest@514646ef]" name="verify_top_offers_link" class="tests.NavigationsTest"/>
+        <method signature="NavigationsTest.verify_two_wheelers_link()[pri:6, instance:tests.NavigationsTest@514646ef]" name="verify_two_wheelers_link" class="tests.NavigationsTest"/>
+      </group> <!-- navigation -->
+      <group name="sellerhub">
+        <method signature="SellerHubTest.verify_spokeperson_name_on_sellerhub()[pri:15, instance:tests.SellerHubTest@302c971f]" name="verify_spokeperson_name_on_sellerhub" class="tests.SellerHubTest"/>
+      </group> <!-- sellerhub -->
+      <group name="header">
+        <method signature="LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" name="validate_login" class="tests.LoginTest"/>
+        <method signature="LogoTest.verify_logo_text()[pri:7, instance:tests.LogoTest@73eb439a]" name="verify_logo_text" class="tests.LogoTest"/>
+        <method signature="LogoTest.verify_flipkart_plus()[pri:8, instance:tests.LogoTest@73eb439a]" name="verify_flipkart_plus" class="tests.LogoTest"/>
+        <method signature="SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e]" name="verify_product_search_using_click" class="tests.SearchTest"/>
+        <method signature="SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e]" name="verify_product_search_using_keyPress" class="tests.SearchTest"/>
+        <method signature="ColorSchemeTest.verify_color_scheme()[pri:11, instance:tests.ColorSchemeTest@792b749c]" name="verify_color_scheme" class="tests.ColorSchemeTest"/>
+        <method signature="SearchTest.verify_search_bar_placeholder()[pri:14, instance:tests.SearchTest@305ffe9e]" name="verify_search_bar_placeholder" class="tests.SearchTest"/>
+        <method signature="SellerHubTest.verify_seller_hub_link()[pri:15, instance:tests.SellerHubTest@302c971f]" name="verify_seller_hub_link" class="tests.SellerHubTest"/>
+      </group> <!-- header -->
+      <group name="login">
+        <method signature="LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" name="validate_login" class="tests.LoginTest"/>
+      </group> <!-- login -->
+      <group name="dashboard">
+        <method signature="BannerTest.verify_banner_width()[pri:12, instance:tests.BannerTest@303cf2ba]" name="verify_banner_width" class="tests.BannerTest"/>
+      </group> <!-- dashboard -->
     </groups>
-    <test started-at="2022-11-30T20:01:25 IST" name="Surefire test" finished-at="2022-11-30T20:06:32 IST" duration-ms="307316">
+    <test started-at="2022-12-03T15:46:54 IST" name="Surefire test" finished-at="2022-12-03T15:54:51 IST" duration-ms="477047">
       <class name="tests.LoginTest">
-        <test-method signature="validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:17 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-11-30T20:02:29 IST" duration-ms="11558" status="PASS">
+        <test-method signature="validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:08 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-12-03T15:48:31 IST" duration-ms="23133" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[8.918214738E9]]>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_login -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:08 IST" name="testCaseStart" finished-at="2022-12-03T15:48:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseStart -->
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:31 IST" name="testCaseReport" finished-at="2022-12-03T15:48:31 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReport -->
+        <test-method signature="validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:31 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-12-03T15:48:55 IST" duration-ms="23401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
               </value>
             </param>
             <param index="1">
@@ -33,44 +113,81 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_login -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:17 IST" name="testCaseStart" finished-at="2022-11-30T20:02:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:31 IST" name="testCaseStart" finished-at="2022-12-03T15:48:31 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
+                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:29 IST" name="testCaseReport" finished-at="2022-11-30T20:02:29 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:55 IST" name="testCaseReport" finished-at="2022-12-03T15:48:55 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
+                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:29 IST" name="testCaseStart" finished-at="2022-11-30T20:02:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:55 IST" name="testCaseStart" finished-at="2022-12-03T15:48:55 IST" duration-ms="4" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
+                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:29 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-11-30T20:02:50 IST" duration-ms="21406" status="PASS">
+        <test-method signature="validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:48:55 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-12-03T15:49:18 IST" duration-ms="23109" status="PASS">
           <params>
             <param index="0">
               <value>
+                <![CDATA[8918214738]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
                 <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validate_login -->
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:49:18 IST" name="testCaseReport" finished-at="2022-12-03T15:49:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReport -->
+        <test-method signature="validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:49:18 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-12-03T15:49:41 IST" duration-ms="23283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8918214738]]>
               </value>
             </param>
             <param index="1">
@@ -92,107 +209,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validate_login -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:50 IST" name="testCaseReport" finished-at="2022-11-30T20:02:50 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:49:18 IST" name="testCaseStart" finished-at="2022-12-03T15:49:18 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:50 IST" name="testCaseStart" finished-at="2022-11-30T20:02:50 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
+                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:02:50 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-11-30T20:03:11 IST" duration-ms="21563" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-12-03T15:49:41 IST" name="testCaseReport" finished-at="2022-12-03T15:49:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[8.918214738E9]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_login -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:03:11 IST" name="testCaseReport" finished-at="2022-11-30T20:03:11 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:03:11 IST" name="testCaseStart" finished-at="2022-11-30T20:03:11 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void tests.LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseStart -->
-        <test-method signature="validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:03:11 IST" name="validate_login" data-provider="getLoginData" finished-at="2022-11-30T20:03:33 IST" duration-ms="21198" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[ ]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validate_login -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LoginTest@19932c16]" started-at="2022-11-30T20:03:33 IST" name="testCaseReport" finished-at="2022-11-30T20:03:33 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
+                <![CDATA[[TestResult name=validate_login status=SUCCESS method=LoginTest.validate_login(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@19932c16] output={null}]]]>
               </value>
             </param>
           </params>
@@ -201,7 +233,7 @@
         </test-method> <!-- testCaseReport -->
       </class> <!-- tests.LoginTest -->
       <class name="tests.NavigationsTest">
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:03:55 IST" name="testCaseStart" finished-at="2022-11-30T20:03:55 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:50:27 IST" name="testCaseStart" finished-at="2022-12-03T15:50:27 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,11 +244,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_grocery_link()[pri:1, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:03:55 IST" name="verify_grocery_link" finished-at="2022-11-30T20:04:06 IST" duration-ms="11120" status="PASS">
+        <test-method signature="verify_grocery_link()[pri:1, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:50:27 IST" name="verify_grocery_link" finished-at="2022-12-03T15:50:50 IST" duration-ms="22956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_grocery_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:06 IST" name="testCaseReport" finished-at="2022-11-30T20:04:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:50:50 IST" name="testCaseReport" finished-at="2022-12-03T15:50:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -227,7 +259,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:06 IST" name="testCaseStart" finished-at="2022-11-30T20:04:06 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:50:50 IST" name="testCaseStart" finished-at="2022-12-03T15:50:50 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,11 +270,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_mobile_link()[pri:2, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:06 IST" name="verify_mobile_link" finished-at="2022-11-30T20:04:17 IST" duration-ms="11300" status="PASS">
+        <test-method signature="verify_mobile_link()[pri:2, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:50:50 IST" name="verify_mobile_link" finished-at="2022-12-03T15:51:13 IST" duration-ms="22901" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_mobile_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:17 IST" name="testCaseReport" finished-at="2022-11-30T20:04:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:13 IST" name="testCaseReport" finished-at="2022-12-03T15:51:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -253,7 +285,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:17 IST" name="testCaseStart" finished-at="2022-11-30T20:04:17 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:13 IST" name="testCaseStart" finished-at="2022-12-03T15:51:13 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,11 +296,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_appliance_link()[pri:3, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:17 IST" name="verify_appliance_link" finished-at="2022-11-30T20:04:29 IST" duration-ms="11176" status="PASS">
+        <test-method signature="verify_appliance_link()[pri:3, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:13 IST" name="verify_appliance_link" finished-at="2022-12-03T15:51:36 IST" duration-ms="23055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_appliance_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:29 IST" name="testCaseReport" finished-at="2022-11-30T20:04:29 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:36 IST" name="testCaseReport" finished-at="2022-12-03T15:51:36 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,7 +311,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:29 IST" name="testCaseStart" finished-at="2022-11-30T20:04:29 IST" duration-ms="2" status="PASS">
+        <test-method signature="verify_travel_link()[pri:4, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:36 IST" name="verify_travel_link" finished-at="2022-12-03T15:51:59 IST" duration-ms="22959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_travel_link -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:36 IST" name="testCaseStart" finished-at="2022-12-03T15:51:36 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -290,11 +326,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_travel_link()[pri:4, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:29 IST" name="verify_travel_link" finished-at="2022-11-30T20:04:40 IST" duration-ms="11410" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_travel_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:40 IST" name="testCaseReport" finished-at="2022-11-30T20:04:40 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:59 IST" name="testCaseReport" finished-at="2022-12-03T15:51:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -305,7 +337,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:40 IST" name="testCaseStart" finished-at="2022-11-30T20:04:40 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:59 IST" name="testCaseStart" finished-at="2022-12-03T15:51:59 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -316,11 +348,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_top_offers_link()[pri:5, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:40 IST" name="verify_top_offers_link" finished-at="2022-11-30T20:04:51 IST" duration-ms="11148" status="PASS">
+        <test-method signature="verify_top_offers_link()[pri:5, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:51:59 IST" name="verify_top_offers_link" finished-at="2022-12-03T15:52:22 IST" duration-ms="23004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_top_offers_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:51 IST" name="testCaseReport" finished-at="2022-11-30T20:04:51 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:52:22 IST" name="testCaseReport" finished-at="2022-12-03T15:52:22 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -331,7 +363,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:51 IST" name="testCaseStart" finished-at="2022-11-30T20:04:51 IST" duration-ms="1" status="PASS">
+        <test-method signature="verify_two_wheelers_link()[pri:6, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:52:22 IST" name="verify_two_wheelers_link" finished-at="2022-12-03T15:52:45 IST" duration-ms="22964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_two_wheelers_link -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:52:22 IST" name="testCaseStart" finished-at="2022-12-03T15:52:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -342,11 +378,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_two_wheelers_link()[pri:6, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:04:51 IST" name="verify_two_wheelers_link" finished-at="2022-11-30T20:05:02 IST" duration-ms="11257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_two_wheelers_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-11-30T20:05:02 IST" name="testCaseReport" finished-at="2022-11-30T20:05:02 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.NavigationsTest@514646ef]" started-at="2022-12-03T15:52:45 IST" name="testCaseReport" finished-at="2022-12-03T15:52:45 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,7 +391,11 @@
         </test-method> <!-- testCaseReport -->
       </class> <!-- tests.NavigationsTest -->
       <class name="tests.ColorSchemeTest">
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-11-30T20:02:05 IST" name="testCaseStart" finished-at="2022-11-30T20:02:05 IST" duration-ms="2" status="PASS">
+        <test-method signature="verify_color_scheme()[pri:11, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-12-03T15:47:45 IST" name="verify_color_scheme" finished-at="2022-12-03T15:48:08 IST" duration-ms="22936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_color_scheme -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-12-03T15:47:45 IST" name="testCaseStart" finished-at="2022-12-03T15:47:45 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -370,11 +406,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_color_scheme()[pri:11, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-11-30T20:02:05 IST" name="verify_color_scheme" finished-at="2022-11-30T20:02:16 IST" duration-ms="11545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_color_scheme -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-11-30T20:02:16 IST" name="testCaseReport" finished-at="2022-11-30T20:02:16 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.ColorSchemeTest@792b749c]" started-at="2022-12-03T15:48:08 IST" name="testCaseReport" finished-at="2022-12-03T15:48:08 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,7 +419,7 @@
         </test-method> <!-- testCaseReport -->
       </class> <!-- tests.ColorSchemeTest -->
       <class name="tests.LogoTest">
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:33 IST" name="testCaseStart" finished-at="2022-11-30T20:03:33 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:49:41 IST" name="testCaseStart" finished-at="2022-12-03T15:49:41 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,11 +430,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_logo_text()[pri:7, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:33 IST" name="verify_logo_text" finished-at="2022-11-30T20:03:44 IST" duration-ms="11087" status="PASS">
+        <test-method signature="verify_logo_text()[pri:7, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:49:41 IST" name="verify_logo_text" finished-at="2022-12-03T15:50:04 IST" duration-ms="22903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_logo_text -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:44 IST" name="testCaseReport" finished-at="2022-11-30T20:03:44 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:50:04 IST" name="testCaseReport" finished-at="2022-12-03T15:50:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,7 +445,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:44 IST" name="testCaseStart" finished-at="2022-11-30T20:03:44 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:50:04 IST" name="testCaseStart" finished-at="2022-12-03T15:50:04 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -424,11 +456,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_flipkart_plus()[pri:8, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:44 IST" name="verify_flipkart_plus" finished-at="2022-11-30T20:03:55 IST" duration-ms="11116" status="PASS">
+        <test-method signature="verify_flipkart_plus()[pri:8, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:50:04 IST" name="verify_flipkart_plus" finished-at="2022-12-03T15:50:27 IST" duration-ms="22985" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_flipkart_plus -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-11-30T20:03:55 IST" name="testCaseReport" finished-at="2022-11-30T20:03:55 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.LogoTest@73eb439a]" started-at="2022-12-03T15:50:27 IST" name="testCaseReport" finished-at="2022-12-03T15:50:27 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -441,15 +473,15 @@
         </test-method> <!-- testCaseReport -->
       </class> <!-- tests.LogoTest -->
       <class name="tests.BannerTest">
-        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:01:22 IST" name="testSetup" finished-at="2022-11-30T20:01:25 IST" duration-ms="3045" status="PASS">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:46:51 IST" name="testSetup" finished-at="2022-12-03T15:46:54 IST" duration-ms="2609" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetup -->
-        <test-method is-config="true" signature="testStart()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:01:25 IST" name="testStart" finished-at="2022-11-30T20:01:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testStart()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:46:54 IST" name="testStart" finished-at="2022-12-03T15:46:54 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStart -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:01:25 IST" name="testCaseStart" finished-at="2022-11-30T20:01:25 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:46:54 IST" name="testCaseStart" finished-at="2022-12-03T15:46:54 IST" duration-ms="5" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -460,11 +492,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_banner_width()[pri:12, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:01:25 IST" name="verify_banner_width" finished-at="2022-11-30T20:02:05 IST" duration-ms="39885" status="PASS">
+        <test-method signature="verify_banner_width()[pri:12, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:46:54 IST" name="verify_banner_width" finished-at="2022-12-03T15:47:45 IST" duration-ms="50586" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_banner_width -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:02:05 IST" name="testCaseReport" finished-at="2022-11-30T20:02:05 IST" duration-ms="4" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:47:45 IST" name="testCaseReport" finished-at="2022-12-03T15:47:45 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -475,13 +507,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="destroy()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-11-30T20:06:32 IST" name="destroy" finished-at="2022-11-30T20:06:33 IST" duration-ms="911" status="PASS">
+        <test-method is-config="true" signature="destroy()[pri:0, instance:tests.BannerTest@303cf2ba]" started-at="2022-12-03T15:54:51 IST" name="destroy" finished-at="2022-12-03T15:54:52 IST" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
       </class> <!-- tests.BannerTest -->
       <class name="tests.SellerHubTest">
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:05:59 IST" name="testCaseStart" finished-at="2022-11-30T20:05:59 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:53:55 IST" name="testCaseStart" finished-at="2022-12-03T15:53:55 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -492,11 +524,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_seller_hub_link()[pri:15, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:05:59 IST" name="verify_seller_hub_link" finished-at="2022-11-30T20:06:18 IST" duration-ms="19460" status="PASS">
+        <test-method signature="verify_seller_hub_link()[pri:15, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:53:55 IST" name="verify_seller_hub_link" finished-at="2022-12-03T15:54:25 IST" duration-ms="30806" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_seller_hub_link -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:06:18 IST" name="testCaseReport" finished-at="2022-11-30T20:06:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:54:25 IST" name="testCaseReport" finished-at="2022-12-03T15:54:25 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -507,7 +539,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:06:18 IST" name="testCaseStart" finished-at="2022-11-30T20:06:18 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:54:25 IST" name="testCaseStart" finished-at="2022-12-03T15:54:25 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -518,20 +550,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_spokeperson_name_on_sellerhub()[pri:15, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:06:18 IST" name="verify_spokeperson_name_on_sellerhub" finished-at="2022-11-30T20:06:32 IST" duration-ms="13987" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="verify_spokeperson_name_on_sellerhub()[pri:15, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:54:26 IST" name="verify_spokeperson_name_on_sellerhub" finished-at="2022-12-03T15:54:51 IST" duration-ms="25485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_spokeperson_name_on_sellerhub -->
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-12-03T15:54:51 IST" name="testCaseReport" finished-at="2022-12-03T15:54:51 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_spokeperson_name_on_sellerhub status=SUCCESS method=SellerHubTest.verify_spokeperson_name_on_sellerhub()[pri:15, instance:tests.SellerHubTest@302c971f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReport -->
+      </class> <!-- tests.SellerHubTest -->
+      <class name="tests.SearchTest">
+        <test-method signature="verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:52:45 IST" name="verify_product_search_using_click" data-provider="searchData" finished-at="2022-12-03T15:53:08 IST" duration-ms="23140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_product_search_using_click -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:52:45 IST" name="testCaseStart" finished-at="2022-12-03T15:52:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void tests.SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseStart -->
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="testCaseReport" finished-at="2022-12-03T15:53:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verify_product_search_using_click status=SUCCESS method=SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseReport -->
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="testCaseStart" finished-at="2022-12-03T15:53:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public static void tests.SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseStart -->
+        <test-method signature="verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="verify_product_search_using_click" data-provider="searchData" finished-at="2022-12-03T15:53:08 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[expected [Chaitanya Ramalingegowda] but found []]]>
+              <![CDATA[Test Case Skipped]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Chaitanya Ramalingegowda] but found []
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1413)
-at org.testng.Assert.assertEqualsImpl(Assert.java:149)
-at org.testng.Assert.assertEquals(Assert.java:131)
-at org.testng.Assert.assertEquals(Assert.java:655)
-at org.testng.Assert.assertEquals(Assert.java:665)
-at tests.SellerHubTest.verify_spokeperson_name_on_sellerhub(SellerHubTest.java:32)
+              <![CDATA[org.testng.SkipException: Test Case Skipped
+at tests.SearchTest.verify_product_search_using_click(SearchTest.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -567,100 +671,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
 at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify_spokeperson_name_on_sellerhub -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SellerHubTest@302c971f]" started-at="2022-11-30T20:06:32 IST" name="testCaseReport" finished-at="2022-11-30T20:06:32 IST" duration-ms="186" status="PASS">
+        </test-method> <!-- verify_product_search_using_click -->
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="testCaseReport" finished-at="2022-12-03T15:53:08 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_spokeperson_name_on_sellerhub status=FAILURE method=SellerHubTest.verify_spokeperson_name_on_sellerhub()[pri:15, instance:tests.SellerHubTest@302c971f] output={null}]]]>
+                <![CDATA[[TestResult name=verify_product_search_using_click status=SKIP method=SearchTest.verify_product_search_using_click(java.lang.String,java.lang.String)[pri:9, instance:tests.SearchTest@305ffe9e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-      </class> <!-- tests.SellerHubTest -->
-      <class name="tests.SearchTest">
-        <test-method signature="verify_product_search_using_click(java.lang.Object,java.lang.Object)[pri:9, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:02 IST" name="verify_product_search_using_click" data-provider="searchData" finished-at="2022-11-30T20:05:14 IST" duration-ms="11239" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="testCaseStart" finished-at="2022-12-03T15:53:08 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[tv]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_product_search_using_click -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:02 IST" name="testCaseStart" finished-at="2022-11-30T20:05:02 IST" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void tests.SearchTest.verify_product_search_using_click(java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
+                <![CDATA[public static void tests.SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:14 IST" name="testCaseReport" finished-at="2022-11-30T20:05:14 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_product_search_using_click status=SUCCESS method=SearchTest.verify_product_search_using_click(java.lang.Object,java.lang.Object)[pri:9, instance:tests.SearchTest@305ffe9e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:14 IST" name="testCaseStart" finished-at="2022-11-30T20:05:14 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public static void tests.SearchTest.verify_product_search_using_click(java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_product_search_using_click(java.lang.Object,java.lang.Object)[pri:9, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:14 IST" name="verify_product_search_using_click" data-provider="searchData" finished-at="2022-11-30T20:05:25 IST" duration-ms="11323" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mobile]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[yes]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_product_search_using_click -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:25 IST" name="testCaseReport" finished-at="2022-11-30T20:05:25 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_product_search_using_click status=SUCCESS method=SearchTest.verify_product_search_using_click(java.lang.Object,java.lang.Object)[pri:9, instance:tests.SearchTest@305ffe9e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseReport -->
-        <test-method signature="verify_product_search_using_keyPress(java.lang.Object,java.lang.Object)[pri:10, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:25 IST" name="verify_product_search_using_keyPress" data-provider="searchData" finished-at="2022-11-30T20:05:36 IST" duration-ms="11260" status="PASS">
+        <test-method signature="verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:08 IST" name="verify_product_search_using_keyPress" data-provider="searchData" finished-at="2022-12-03T15:53:32 IST" duration-ms="23494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -676,40 +713,29 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_search_using_keyPress -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:25 IST" name="testCaseStart" finished-at="2022-11-30T20:05:25 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="testCaseReport" finished-at="2022-12-03T15:53:32 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void tests.SearchTest.verify_product_search_using_keyPress(java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCaseStart -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:36 IST" name="testCaseReport" finished-at="2022-11-30T20:05:36 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify_product_search_using_keyPress status=SUCCESS method=SearchTest.verify_product_search_using_keyPress(java.lang.Object,java.lang.Object)[pri:10, instance:tests.SearchTest@305ffe9e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_product_search_using_keyPress status=SUCCESS method=SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:36 IST" name="testCaseStart" finished-at="2022-11-30T20:05:36 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="testCaseStart" finished-at="2022-12-03T15:53:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public static void tests.SearchTest.verify_product_search_using_keyPress(java.lang.Object,java.lang.Object) throws java.lang.InterruptedException]]>
+                <![CDATA[public static void tests.SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_product_search_using_keyPress(java.lang.Object,java.lang.Object)[pri:10, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:36 IST" name="verify_product_search_using_keyPress" data-provider="searchData" finished-at="2022-11-30T20:05:48 IST" duration-ms="11305" status="PASS">
+        <test-method signature="verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="verify_product_search_using_keyPress" data-provider="searchData" finished-at="2022-12-03T15:53:32 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -718,25 +744,68 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
             </param>
             <param index="1">
               <value>
-                <![CDATA[yes]]>
+                <![CDATA[no]]>
               </value>
             </param>
           </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test Case Skipped]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test Case Skipped
+at tests.SearchTest.verify_product_search_using_keyPress(SearchTest.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_product_search_using_keyPress -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:48 IST" name="testCaseReport" finished-at="2022-11-30T20:05:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="testCaseReport" finished-at="2022-12-03T15:53:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verify_product_search_using_keyPress status=SUCCESS method=SearchTest.verify_product_search_using_keyPress(java.lang.Object,java.lang.Object)[pri:10, instance:tests.SearchTest@305ffe9e] output={null}]]]>
+                <![CDATA[[TestResult name=verify_product_search_using_keyPress status=SKIP method=SearchTest.verify_product_search_using_keyPress(java.lang.String,java.lang.String)[pri:10, instance:tests.SearchTest@305ffe9e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseReport -->
-        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:48 IST" name="testCaseStart" finished-at="2022-11-30T20:05:48 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="testCaseStart(java.lang.reflect.Method)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="testCaseStart" finished-at="2022-12-03T15:53:32 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -747,11 +816,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseStart -->
-        <test-method signature="verify_search_bar_placeholder()[pri:14, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:48 IST" name="verify_search_bar_placeholder" finished-at="2022-11-30T20:05:59 IST" duration-ms="11064" status="PASS">
+        <test-method signature="verify_search_bar_placeholder()[pri:14, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:32 IST" name="verify_search_bar_placeholder" finished-at="2022-12-03T15:53:55 IST" duration-ms="22947" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_search_bar_placeholder -->
-        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-11-30T20:05:59 IST" name="testCaseReport" finished-at="2022-11-30T20:05:59 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="testCaseReport(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@305ffe9e]" started-at="2022-12-03T15:53:55 IST" name="testCaseReport" finished-at="2022-12-03T15:53:55 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>

@@ -1,73 +1,71 @@
-2022-12-01 13:37:20 INFO  Flipkart Test:85 - using browser chrome
-   2022-12-01 13:37:22 INFO  Flipkart Test:94 - Initilising Driver
-   2022-12-01 13:37:22 INFO  Flipkart Test:96 - Managing Timeouts
-   2022-12-01 13:37:22 INFO  Flipkart Test:98 - Initilising Driver
-   2022-12-01 13:37:22 INFO  Flipkart Test:99 - Maximize browser window
-   2022-12-01 13:37:22 INFO  Flipkart Test:136 - Report Generation at : C:\Users\rupamdasgupta\eclipse-workspace\exit_test_selenium\test_reports\report.html
-   2022-12-01 13:37:22 INFO  Flipkart Test:145 - Starting Test
-   2022-12-01 13:37:22 INFO  Flipkart Test:153 - Starting Test Case :verify_color_scheme
-   2022-12-01 13:38:33 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:38:33 INFO  Flipkart Test:213 - Ending Test Case :verify_color_scheme
-   2022-12-01 13:38:33 INFO  Flipkart Test:153 - Starting Test Case :verify_logo_text
-   2022-12-01 13:38:54 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:38:54 INFO  Flipkart Test:213 - Ending Test Case :verify_logo_text
-   2022-12-01 13:38:54 INFO  Flipkart Test:153 - Starting Test Case :verify_flipkart_plus
-   2022-12-01 13:39:15 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:39:15 INFO  Flipkart Test:213 - Ending Test Case :verify_flipkart_plus
-   2022-12-01 13:39:15 INFO  Flipkart Test:153 - Starting Test Case :verify_grocery_link
-   2022-12-01 13:39:37 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:39:37 INFO  Flipkart Test:213 - Ending Test Case :verify_grocery_link
-   2022-12-01 13:39:37 INFO  Flipkart Test:153 - Starting Test Case :verify_mobile_link
-   2022-12-01 13:39:58 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:39:58 INFO  Flipkart Test:213 - Ending Test Case :verify_mobile_link
-   2022-12-01 13:39:58 INFO  Flipkart Test:153 - Starting Test Case :verify_appliance_link
-   2022-12-01 13:40:20 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:40:20 INFO  Flipkart Test:213 - Ending Test Case :verify_appliance_link
-   2022-12-01 13:40:20 INFO  Flipkart Test:153 - Starting Test Case :verify_travel_link
-   2022-12-01 13:40:42 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:40:42 INFO  Flipkart Test:213 - Ending Test Case :verify_travel_link
-   2022-12-01 13:40:42 INFO  Flipkart Test:153 - Starting Test Case :verify_top_offers_link
-   2022-12-01 13:41:03 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:41:03 INFO  Flipkart Test:213 - Ending Test Case :verify_top_offers_link
-   2022-12-01 13:41:03 INFO  Flipkart Test:153 - Starting Test Case :verify_two_wheelers_link
-   2022-12-01 13:41:24 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:41:24 INFO  Flipkart Test:213 - Ending Test Case :verify_two_wheelers_link
-   2022-12-01 13:41:25 INFO  Flipkart Test:153 - Starting Test Case :verify_product_search_using_click
-   2022-12-01 13:41:47 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:41:47 INFO  Flipkart Test:213 - Ending Test Case :verify_product_search_using_click
-   2022-12-01 13:41:47 INFO  Flipkart Test:153 - Starting Test Case :verify_product_search_using_click
-   2022-12-01 13:42:09 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:42:09 INFO  Flipkart Test:213 - Ending Test Case :verify_product_search_using_click
-   2022-12-01 13:42:09 INFO  Flipkart Test:153 - Starting Test Case :verify_product_search_using_keyPress
-   2022-12-01 13:42:31 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:42:31 INFO  Flipkart Test:213 - Ending Test Case :verify_product_search_using_keyPress
-   2022-12-01 13:42:31 INFO  Flipkart Test:153 - Starting Test Case :verify_product_search_using_keyPress
-   2022-12-01 13:42:54 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:42:54 INFO  Flipkart Test:213 - Ending Test Case :verify_product_search_using_keyPress
-   2022-12-01 13:42:54 INFO  Flipkart Test:153 - Starting Test Case :verify_search_bar_placeholder
-   2022-12-01 13:43:15 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:43:15 INFO  Flipkart Test:213 - Ending Test Case :verify_search_bar_placeholder
-   2022-12-01 13:43:15 INFO  Flipkart Test:153 - Starting Test Case :verify_banner_width
-   2022-12-01 13:43:37 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:43:37 INFO  Flipkart Test:213 - Ending Test Case :verify_banner_width
-   2022-12-01 13:43:37 INFO  Flipkart Test:153 - Starting Test Case :verify_seller_hub_link
-   2022-12-01 13:44:04 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:44:04 INFO  Flipkart Test:213 - Ending Test Case :verify_seller_hub_link
-   2022-12-01 13:44:04 INFO  Flipkart Test:153 - Starting Test Case :verify_spokeperson_name_on_sellerhub
-   2022-12-01 13:44:28 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:44:28 INFO  Flipkart Test:213 - Ending Test Case :verify_spokeperson_name_on_sellerhub
-   2022-12-01 13:44:28 INFO  Flipkart Test:153 - Starting Test Case :validate_login
-   2022-12-01 13:44:50 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:44:50 INFO  Flipkart Test:213 - Ending Test Case :validate_login
-   2022-12-01 13:44:50 INFO  Flipkart Test:153 - Starting Test Case :validate_login
-   2022-12-01 13:45:12 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:45:12 INFO  Flipkart Test:213 - Ending Test Case :validate_login
-   2022-12-01 13:45:12 INFO  Flipkart Test:153 - Starting Test Case :validate_login
-   2022-12-01 13:45:34 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:45:34 INFO  Flipkart Test:213 - Ending Test Case :validate_login
-   2022-12-01 13:45:34 INFO  Flipkart Test:153 - Starting Test Case :validate_login
-   2022-12-01 13:45:56 INFO  Flipkart Test:196 - Test case success
-   2022-12-01 13:45:56 INFO  Flipkart Test:213 - Ending Test Case :validate_login
-   2022-12-01 13:45:56 INFO  Flipkart Test:224 - Saving reports
-   2022-12-01 13:45:57 INFO  Flipkart Test:226 - Quiting
+2022-12-03 15:46:51 INFO  Flipkart Test:85 - using browser chrome
+   2022-12-03 15:46:54 INFO  Flipkart Test:94 - Initilising Driver
+   2022-12-03 15:46:54 INFO  Flipkart Test:96 - Managing Timeouts
+   2022-12-03 15:46:54 INFO  Flipkart Test:98 - Initilising Driver
+   2022-12-03 15:46:54 INFO  Flipkart Test:99 - Maximize browser window
+   2022-12-03 15:46:54 INFO  Flipkart Test:137 - Report Generation at : C:\Users\rupamdasgupta\eclipse-workspace\exit_test_selenium\test_reports\report.html
+   2022-12-03 15:46:54 INFO  Flipkart Test:146 - Starting Test
+   2022-12-03 15:46:54 INFO  Flipkart Test:154 - Starting Test Case :verify_banner_width
+   2022-12-03 15:47:45 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:47:45 INFO  Flipkart Test:216 - Ending Test Case :verify_banner_width
+   2022-12-03 15:47:45 INFO  Flipkart Test:154 - Starting Test Case :verify_color_scheme
+   2022-12-03 15:48:08 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:48:08 INFO  Flipkart Test:216 - Ending Test Case :verify_color_scheme
+   2022-12-03 15:48:08 INFO  Flipkart Test:154 - Starting Test Case :validate_login
+   2022-12-03 15:48:31 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:48:31 INFO  Flipkart Test:216 - Ending Test Case :validate_login
+   2022-12-03 15:48:31 INFO  Flipkart Test:154 - Starting Test Case :validate_login
+   2022-12-03 15:48:55 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:48:55 INFO  Flipkart Test:216 - Ending Test Case :validate_login
+   2022-12-03 15:48:55 INFO  Flipkart Test:154 - Starting Test Case :validate_login
+   2022-12-03 15:49:18 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:49:18 INFO  Flipkart Test:216 - Ending Test Case :validate_login
+   2022-12-03 15:49:18 INFO  Flipkart Test:154 - Starting Test Case :validate_login
+   2022-12-03 15:49:41 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:49:41 INFO  Flipkart Test:216 - Ending Test Case :validate_login
+   2022-12-03 15:49:41 INFO  Flipkart Test:154 - Starting Test Case :verify_logo_text
+   2022-12-03 15:50:04 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:50:04 INFO  Flipkart Test:216 - Ending Test Case :verify_logo_text
+   2022-12-03 15:50:04 INFO  Flipkart Test:154 - Starting Test Case :verify_flipkart_plus
+   2022-12-03 15:50:27 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:50:27 INFO  Flipkart Test:216 - Ending Test Case :verify_flipkart_plus
+   2022-12-03 15:50:27 INFO  Flipkart Test:154 - Starting Test Case :verify_grocery_link
+   2022-12-03 15:50:50 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:50:50 INFO  Flipkart Test:216 - Ending Test Case :verify_grocery_link
+   2022-12-03 15:50:50 INFO  Flipkart Test:154 - Starting Test Case :verify_mobile_link
+   2022-12-03 15:51:13 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:51:13 INFO  Flipkart Test:216 - Ending Test Case :verify_mobile_link
+   2022-12-03 15:51:13 INFO  Flipkart Test:154 - Starting Test Case :verify_appliance_link
+   2022-12-03 15:51:36 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:51:36 INFO  Flipkart Test:216 - Ending Test Case :verify_appliance_link
+   2022-12-03 15:51:36 INFO  Flipkart Test:154 - Starting Test Case :verify_travel_link
+   2022-12-03 15:51:59 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:51:59 INFO  Flipkart Test:216 - Ending Test Case :verify_travel_link
+   2022-12-03 15:51:59 INFO  Flipkart Test:154 - Starting Test Case :verify_top_offers_link
+   2022-12-03 15:52:22 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:52:22 INFO  Flipkart Test:216 - Ending Test Case :verify_top_offers_link
+   2022-12-03 15:52:22 INFO  Flipkart Test:154 - Starting Test Case :verify_two_wheelers_link
+   2022-12-03 15:52:45 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:52:45 INFO  Flipkart Test:216 - Ending Test Case :verify_two_wheelers_link
+   2022-12-03 15:52:45 INFO  Flipkart Test:154 - Starting Test Case :verify_product_search_using_click
+   2022-12-03 15:53:08 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:53:08 INFO  Flipkart Test:216 - Ending Test Case :verify_product_search_using_click
+   2022-12-03 15:53:08 INFO  Flipkart Test:154 - Starting Test Case :verify_product_search_using_click
+   2022-12-03 15:53:08 INFO  Flipkart Test:216 - Ending Test Case :verify_product_search_using_click
+   2022-12-03 15:53:08 INFO  Flipkart Test:154 - Starting Test Case :verify_product_search_using_keyPress
+   2022-12-03 15:53:32 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:53:32 INFO  Flipkart Test:216 - Ending Test Case :verify_product_search_using_keyPress
+   2022-12-03 15:53:32 INFO  Flipkart Test:154 - Starting Test Case :verify_product_search_using_keyPress
+   2022-12-03 15:53:32 INFO  Flipkart Test:216 - Ending Test Case :verify_product_search_using_keyPress
+   2022-12-03 15:53:32 INFO  Flipkart Test:154 - Starting Test Case :verify_search_bar_placeholder
+   2022-12-03 15:53:55 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:53:55 INFO  Flipkart Test:216 - Ending Test Case :verify_search_bar_placeholder
+   2022-12-03 15:53:55 INFO  Flipkart Test:154 - Starting Test Case :verify_seller_hub_link
+   2022-12-03 15:54:25 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:54:25 INFO  Flipkart Test:216 - Ending Test Case :verify_seller_hub_link
+   2022-12-03 15:54:25 INFO  Flipkart Test:154 - Starting Test Case :verify_spokeperson_name_on_sellerhub
+   2022-12-03 15:54:51 INFO  Flipkart Test:197 - Test case success
+   2022-12-03 15:54:51 INFO  Flipkart Test:216 - Ending Test Case :verify_spokeperson_name_on_sellerhub
+   2022-12-03 15:54:51 INFO  Flipkart Test:227 - Saving reports
+   2022-12-03 15:54:52 INFO  Flipkart Test:229 - Quiting
    

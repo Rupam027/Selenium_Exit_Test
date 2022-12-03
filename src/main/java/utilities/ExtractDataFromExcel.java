@@ -4,47 +4,40 @@ import java.io.*;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.*;
 
 
 
 public class ExtractDataFromExcel {
 	
-	public static Object[][] getTestData(String fileName, String sheet_name) throws IOException {
-        	Object[][] data = null;
-       
-             
-            FileInputStream fis = new FileInputStream(fileName);
-            
-            XSSFWorkbook workbook = new XSSFWorkbook(fis);
+	@SuppressWarnings("deprecation")
+	public static String[][] getTestData(String fileName, String sheet_name) throws IOException {
+        	
+            XSSFWorkbook workbook = new XSSFWorkbook(new FileInputStream(fileName));
             XSSFSheet sheet = workbook.getSheet(sheet_name);
+            int row_count = sheet.getPhysicalNumberOfRows();
+            int col_count = sheet.getRow(0).getLastCellNum();
             
-            XSSFRow row = sheet.getRow(0);
-            int noOfRows = sheet.getPhysicalNumberOfRows();
-            int noOfCols = row.getLastCellNum();
-            Cell cell;
-            data = new Object[noOfRows - 1][noOfCols];
+            String dataTable[][] = new String[row_count - 1][col_count];
             
-            for (int i = 1; i < noOfRows; i++) {
-                for (int j = 0; j < noOfCols; j++) {
-                    row = sheet.getRow(i);
-                    cell = row.getCell(j);
-                    
-                    if(cell == null)
-                    	data[i - 1][j] = " ";
-                    
-                    else if(cell.getCellType() == CellType.STRING)
-                    	data[i - 1][j] = cell.getStringCellValue();
-                    else if(cell.getCellType() == CellType.NUMERIC)
-                        data[i - 1][j] = cell.getNumericCellValue();
+            
+            for (int i = 1; i < row_count; i++) {
+            	Row row =  sheet.getRow(i);
+                for (int j = 0; j < col_count; j++) {
+                	Cell cell = row.getCell(j);
+                	if(cell == null) 
+                		dataTable[i - 1][j]	= " " ;
+                	else {
+                		
+                	cell.setCellType(CellType.STRING);
+                    dataTable[i - 1][j] = cell.getStringCellValue();
+                	}
                 }
             }
             
             workbook.close();
-       
-        
-        
-        return data;
-    }
+            return dataTable;
+       }
 
 }

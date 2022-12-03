@@ -1,54 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [FLIPKART]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="SELENIUM TESTS(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.SellerHubTest">
+      <class name="tests.LoginTest">
         <methods>
-          <include name="testCaseReport"/>
-          <include name="testSetup"/>
-          <include name="verify_seller_hub_link"/>
-          <include name="testStart"/>
-          <include name="testCaseStart"/>
-          <include name="verify_spokeperson_name_on_sellerhub"/>
-          <include name="destroy"/>
-        </methods>
-      </class> <!-- tests.SellerHubTest -->
-      <class name="tests.LogoTest">
-        <methods>
-          <include name="verify_flipkart_plus"/>
           <include name="testCaseReport"/>
           <include name="testSetup"/>
           <include name="testStart"/>
           <include name="testCaseStart"/>
           <include name="destroy"/>
+          <include name="validate_login" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- tests.LogoTest -->
-      <class name="tests.SearchTest">
-        <methods>
-          <include name="verify_product_search_using_click" invocation-numbers="0 1"/>
-          <include name="testCaseReport"/>
-          <include name="testSetup"/>
-          <include name="testStart"/>
-          <include name="testCaseStart"/>
-          <include name="destroy"/>
-        </methods>
-      </class> <!-- tests.SearchTest -->
-      <class name="tests.NavigationsTest">
-        <methods>
-          <include name="verify_grocery_link"/>
-          <include name="testCaseReport"/>
-          <include name="testSetup"/>
-          <include name="verify_travel_link"/>
-          <include name="testStart"/>
-          <include name="testCaseStart"/>
-          <include name="verify_mobile_link"/>
-          <include name="destroy"/>
-          <include name="verify_two_wheelers_link"/>
-          <include name="verify_top_offers_link"/>
-          <include name="verify_appliance_link"/>
-        </methods>
-      </class> <!-- tests.NavigationsTest -->
+      </class> <!-- tests.LoginTest -->
     </classes>
-  </test> <!-- SELENIUM TESTS(failed) -->
-</suite> <!-- Failed suite [FLIPKART] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
