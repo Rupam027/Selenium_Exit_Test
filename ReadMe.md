@@ -1,9 +1,9 @@
 
-#AUTOMATION FRESHER TRAINING
+<h1>AUTOMATION FRESHER TRAINING</h1>
 
-###Exit Test Assignment
+<h3>Exit Test Assignment </h3>
 
-#####SELENIUM PROJECT
+<h4>SELENIUM PROJECT </h4>
 
 <b> PREREQUISITES </b>
 
